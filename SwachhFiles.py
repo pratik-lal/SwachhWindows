@@ -46,15 +46,14 @@ class SwachhFiles:
         init_setuplog_old_files = self.windir_folder + "\\setup*.old"
         setuplog_files = glob.glob(init_setuplog_files, recursive=False)
         setuplog_old_files = glob.glob(init_setuplog_old_files, recursive=False)
-        setuplog_txtfiles = self.windir_folder + "\\setuplog.txt"
-        win32_ntlog_files = self.windir_folder + "\\winnt32.log"
         init_sys_error_memory_dump_files = self.windir_folder + "\\*.dmp"
         sys_error_memory_dump_files = glob.glob(init_sys_error_memory_dump_files)
         init_sys_error_minidump_files = self.windir_folder + "\\Minidump\\*.dmp"
         sys_error_minidump_files = glob.glob(init_sys_error_minidump_files, recursive=False)
 
-        files_with_pattern: list = [setuplog_files, setuplog_old_files, setuplog_txtfiles, win32_ntlog_files,
-                                    sys_error_memory_dump_files, sys_error_minidump_files]
+        # glob already returns a list, bug fix needed below
+        files_with_pattern: list = [setuplog_files, setuplog_old_files, sys_error_memory_dump_files,
+                                    sys_error_minidump_files]
 
         for each_file in files_with_pattern:
             try:
@@ -74,15 +73,26 @@ class SwachhFiles:
                 shutil.rmtree(each_file)
                 print("Successfully deleted Windows Defender temporary files. {}" .format(each_file))
             except Exception as ex:
-                print("Error deleting temp folders {}" .format(each_file))
+                print("Error deleting defender temp folders {}" .format(each_file))
                 print(ex)
 
     def delete_win_error_reporting_files(self):
         win_error_reporting_files = self.all_user_profiles + "\\Microsoft\\Windows\\WER"
-        for each_file in win_error_reporting_files:
+        try:
+            shutil.rmtree(win_error_reporting_files)
+            print("Successfully deleted Windows error reporting files {}".format(win_error_reporting_files))
+        except Exception as ex:
+            print("Error deleting temp folders {}".format(win_error_reporting_files))
+            print(ex)
+
+    def delete_single_files(self):
+        setuplog_txtfiles = self.windir_folder + "\\setuplog.txt"
+        win32_ntlog_files = self.windir_folder + "\\winnt32.log"
+        single_files: list = [setuplog_txtfiles, win32_ntlog_files]
+        for each_file in single_files:
             try:
-                shutil.rmtree(each_file)
-                print("Successfully deleted Windows error reporting files {}" .format(each_file))
+                os.remove(each_file)
+                print("Successfully delete single file {}".format(each_file))
             except Exception as ex:
-                print("Error deleting temp folders {}".format(each_file))
+                print("Unable to delete single file: delete_single_files {}".format(each_file))
                 print(ex)
