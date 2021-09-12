@@ -1,4 +1,5 @@
 from SwachhFiles import SwachhFiles
+from logger import logger
 
 
 class SwachhWindows:
@@ -12,6 +13,7 @@ class SwachhWindows:
 
 
 if __name__ == "__main__":
+    logger.info("Executing Main Program")
     SwachhWindows.main()
 
 
