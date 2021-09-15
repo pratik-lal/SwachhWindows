@@ -1,3 +1,4 @@
+import json
 import os
 import winshell
 from SwachhChildItems import ChildItem
@@ -38,7 +39,6 @@ class SwachhFiles:
         windir_logs_folder = self.windir_folder + "\\Logs\\*"
         windir_sys32_logfiles_folder = self.windir_folder + "\\System32\\LogFiles\\*"
         diagnostic_dataviewer_dbfiles = self.programdata_folder + "\\Microsoft\\Diagnosis\\EventTranscript\\*"
-        user_downloads_folder = self.user_profile_folder + "\\Downloads\\*"
         feedbackhub_archive_logfiles_folder = self.programdata_folder + "\\Microsoft\\Diagnosis\\FeedbackArchive\\*"
         setuplog_files = self.windir_folder + "\\setup*.log"
         setuplog_old_files = self.windir_folder + "\\setup*.old"
@@ -54,7 +54,6 @@ class SwachhFiles:
                                     windir_logs_folder,
                                     windir_sys32_logfiles_folder,
                                     diagnostic_dataviewer_dbfiles,
-                                    user_downloads_folder,
                                     feedbackhub_archive_logfiles_folder,
                                     setuplog_files, setuplog_old_files,
                                     sys_error_memory_dump_files,
@@ -67,6 +66,21 @@ class SwachhFiles:
 
         for each_item in files_with_pattern:
             ChildItem(each_item).delete_childitems()
+
+    def delete_downloads_folderitems(self):
+        user_downloads_folder = self.user_profile_folder + "\\Downloads\\*"
+        try:
+            with open(file="config/appconfig.json", mode="r") as app_config:
+                app_config_json = json.load(app_config)
+                delete_downloads_folderitem = str(app_config_json["DeleteDownloadFolderItems"])
+                if delete_downloads_folderitem.lower() == "yes":
+                    ChildItem(user_downloads_folder).delete_childitems()
+                else:
+                    logger.info("Skipping file path {}. It is set to ignore in appconfig.json"
+                                .format(user_downloads_folder))
+        except Exception as ex:
+            logger.error("Error in delete_downloads_folderitems method")
+            logger.error(ex)
 
     @staticmethod
     def delete_windows_upgrade_files():

@@ -11,6 +11,7 @@ class SwachhWindows:
         my_tempfiles.empty_recycle_bin()
         my_tempfiles.delete_files_with_pattern()
         my_tempfiles.delete_windows_upgrade_files()
+        my_tempfiles.delete_downloads_folderitems()
 
         disk_defrag = SwachhDefrag()
         disk_defrag.execute_disk_defragmenter()
