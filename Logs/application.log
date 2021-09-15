@@ -106,3 +106,133 @@
 2021-09-12 23:21:56,811 - SwachhWindows - ERROR: [WinError 5] Access is denied: 'C:\\Windows\\panther\\miglog.xml'
 2021-09-12 23:21:56,811 - SwachhWindows - ERROR: Error in delete_windows_upgrade_files()
 2021-09-12 23:21:56,811 - SwachhWindows - ERROR: [WinError 2] The system cannot find the file specified: 'C:\\Windows\\memory.dmp'
+2021-09-15 13:11:50,274 - SwachhWindows - INFO: Executing Main Program
+2021-09-15 13:11:50,274 - SwachhWindows - ERROR: Unable to delete single file: delete_single_files C:\WINDOWS\setuplog.txt
+2021-09-15 13:11:50,274 - SwachhWindows - ERROR: [WinError 2] The system cannot find the file specified: 'C:\\WINDOWS\\setuplog.txt'
+2021-09-15 13:11:50,274 - SwachhWindows - ERROR: Unable to delete single file: delete_single_files C:\WINDOWS\winnt32.log
+2021-09-15 13:11:50,274 - SwachhWindows - ERROR: [WinError 2] The system cannot find the file specified: 'C:\\WINDOWS\\winnt32.log'
+2021-09-15 13:11:50,313 - SwachhWindows - ERROR: Error deleting recycle bin files. This may happen if Recycle bin is empty!
+2021-09-15 13:11:50,313 - SwachhWindows - ERROR: (-2147418113, 'Catastrophic failure', None, None)
+2021-09-15 13:11:50,313 - SwachhWindows - INFO: Deleted folder and it contents: C:\WINDOWS\Logs\CBS
+2021-09-15 13:11:50,313 - SwachhWindows - ERROR: Error in delete_childitems method: C:\WINDOWS\Logs\CBS
+2021-09-15 13:11:50,313 - SwachhWindows - ERROR: [WinError 5] Access is denied: 'C:\\WINDOWS\\Logs\\CBS\\CBS.log'
+2021-09-15 13:11:50,313 - SwachhWindows - INFO: Deleted file: C:\WINDOWS\Logs\DAX2_API_Install.log
+2021-09-15 13:11:50,313 - SwachhWindows - ERROR: Error in delete_childitems method: C:\WINDOWS\Logs\DAX2_API_Install.log
+2021-09-15 13:11:50,313 - SwachhWindows - ERROR: [WinError 5] Access is denied: 'C:\\WINDOWS\\Logs\\DAX2_API_Install.log'
+2021-09-15 13:11:50,313 - SwachhWindows - INFO: Deleted file: C:\WINDOWS\Logs\DAX2_API_Uninstall_97.log
+2021-09-15 13:11:50,313 - SwachhWindows - ERROR: Error in delete_childitems method: C:\WINDOWS\Logs\DAX2_API_Uninstall_97.log
+2021-09-15 13:11:50,313 - SwachhWindows - ERROR: [WinError 5] Access is denied: 'C:\\WINDOWS\\Logs\\DAX2_API_Uninstall_97.log'
+2021-09-15 13:11:50,313 - SwachhWindows - INFO: Deleted folder and it contents: C:\WINDOWS\Logs\DISM
+2021-09-15 13:11:50,313 - SwachhWindows - ERROR: Error in delete_childitems method: C:\WINDOWS\Logs\DISM
+2021-09-15 13:11:50,313 - SwachhWindows - ERROR: [WinError 5] Access is denied: 'C:\\WINDOWS\\Logs\\DISM\\dism.log'
+2021-09-15 13:11:50,313 - SwachhWindows - INFO: Deleted folder and it contents: C:\WINDOWS\Logs\Downlevel
+2021-09-15 13:11:50,313 - SwachhWindows - ERROR: Error in delete_childitems method: C:\WINDOWS\Logs\Downlevel
+2021-09-15 13:11:50,313 - SwachhWindows - ERROR: [WinError 5] Access is denied: 'C:\\WINDOWS\\Logs\\Downlevel\\CBS\\CBS.log'
+2021-09-15 13:11:50,313 - SwachhWindows - INFO: Deleted folder and it contents: C:\WINDOWS\Logs\MeasuredBoot
+2021-09-15 13:11:50,313 - SwachhWindows - ERROR: Error in delete_childitems method: C:\WINDOWS\Logs\MeasuredBoot
+2021-09-15 13:11:50,313 - SwachhWindows - ERROR: [WinError 5] Access is denied: 'C:\\WINDOWS\\Logs\\MeasuredBoot\\0000000039-0000000000.log'
+2021-09-15 13:11:50,313 - SwachhWindows - INFO: Deleted folder and it contents: C:\WINDOWS\Logs\NetSetup
+2021-09-15 13:11:50,313 - SwachhWindows - ERROR: Error in delete_childitems method: C:\WINDOWS\Logs\NetSetup
+2021-09-15 13:11:50,313 - SwachhWindows - ERROR: [WinError 5] Access is denied: 'C:\\WINDOWS\\Logs\\NetSetup\\service.0.etl'
+2021-09-15 13:11:50,313 - SwachhWindows - INFO: Deleted folder and it contents: C:\WINDOWS\Logs\SetupCleanupTask
+2021-09-15 13:11:50,313 - SwachhWindows - ERROR: Error in delete_childitems method: C:\WINDOWS\Logs\SetupCleanupTask
+2021-09-15 13:11:50,313 - SwachhWindows - ERROR: [WinError 5] Access is denied: 'C:\\WINDOWS\\Logs\\SetupCleanupTask\\diagerr.xml'
+2021-09-15 13:11:50,313 - SwachhWindows - INFO: Deleted folder and it contents: C:\WINDOWS\Logs\SetupSnapshotCleanupTask
+2021-09-15 13:11:50,313 - SwachhWindows - ERROR: Error in delete_childitems method: C:\WINDOWS\Logs\SetupSnapshotCleanupTask
+2021-09-15 13:11:50,313 - SwachhWindows - ERROR: [WinError 5] Access is denied: 'C:\\WINDOWS\\Logs\\SetupSnapshotCleanupTask\\diagerr.xml'
+2021-09-15 13:11:50,313 - SwachhWindows - INFO: Deleted folder and it contents: C:\WINDOWS\Logs\SIH
+2021-09-15 13:11:50,313 - SwachhWindows - ERROR: Error in delete_childitems method: C:\WINDOWS\Logs\SIH
+2021-09-15 13:11:50,322 - SwachhWindows - ERROR: [WinError 5] Access is denied: 'C:\\WINDOWS\\Logs\\SIH\\SIH.20210912.233855.911.1.etl'
+2021-09-15 13:11:50,322 - SwachhWindows - INFO: Deleted folder and it contents: C:\WINDOWS\Logs\SystemRestore
+2021-09-15 13:11:50,322 - SwachhWindows - ERROR: Error in delete_childitems method: C:\WINDOWS\Logs\SystemRestore
+2021-09-15 13:11:50,322 - SwachhWindows - ERROR: [WinError 5] Access is denied: 'C:\\WINDOWS\\Logs\\SystemRestore'
+2021-09-15 13:11:50,322 - SwachhWindows - INFO: Deleted folder and it contents: C:\WINDOWS\Logs\Telephony
+2021-09-15 13:11:50,322 - SwachhWindows - ERROR: Error in delete_childitems method: C:\WINDOWS\Logs\Telephony
+2021-09-15 13:11:50,322 - SwachhWindows - ERROR: [WinError 5] Access is denied: 'C:\\WINDOWS\\Logs\\Telephony'
+2021-09-15 13:11:50,322 - SwachhWindows - INFO: Deleted folder and it contents: C:\WINDOWS\Logs\waasmedic
+2021-09-15 13:11:50,322 - SwachhWindows - ERROR: Error in delete_childitems method: C:\WINDOWS\Logs\waasmedic
+2021-09-15 13:11:50,322 - SwachhWindows - ERROR: [WinError 5] Access is denied: 'C:\\WINDOWS\\Logs\\waasmedic\\waasmedic.20210912_001210_802.etl'
+2021-09-15 13:11:50,322 - SwachhWindows - INFO: Deleted folder and it contents: C:\WINDOWS\Logs\waasmediccapsule
+2021-09-15 13:11:50,322 - SwachhWindows - ERROR: Error in delete_childitems method: C:\WINDOWS\Logs\waasmediccapsule
+2021-09-15 13:11:50,322 - SwachhWindows - ERROR: [WinError 5] Access is denied: 'C:\\WINDOWS\\Logs\\waasmediccapsule\\WaasRemediation.002.etl'
+2021-09-15 13:11:50,322 - SwachhWindows - INFO: Deleted folder and it contents: C:\WINDOWS\Logs\WindowsUpdate
+2021-09-15 13:11:50,330 - SwachhWindows - ERROR: Error in delete_childitems method: C:\WINDOWS\Logs\WindowsUpdate
+2021-09-15 13:11:50,330 - SwachhWindows - ERROR: [WinError 5] Access is denied: 'C:\\WINDOWS\\Logs\\WindowsUpdate\\WindowsUpdate.20210912.054210.952.1.etl'
+2021-09-15 13:11:50,330 - SwachhWindows - INFO: Deleted folder and it contents: C:\WINDOWS\System32\LogFiles\CloudFiles
+2021-09-15 13:11:50,330 - SwachhWindows - ERROR: Error in delete_childitems method: C:\WINDOWS\System32\LogFiles\CloudFiles
+2021-09-15 13:11:50,330 - SwachhWindows - ERROR: [WinError 5] Access is denied: 'C:\\WINDOWS\\System32\\LogFiles\\CloudFiles\\CldFlt0.etl'
+2021-09-15 13:11:50,330 - SwachhWindows - INFO: Deleted folder and it contents: C:\WINDOWS\System32\LogFiles\Fax
+2021-09-15 13:11:50,330 - SwachhWindows - ERROR: Error in delete_childitems method: C:\WINDOWS\System32\LogFiles\Fax
+2021-09-15 13:11:50,330 - SwachhWindows - ERROR: [WinError 5] Access is denied: 'C:\\WINDOWS\\System32\\LogFiles\\Fax\\Incoming'
+2021-09-15 13:11:50,330 - SwachhWindows - INFO: Deleted folder and it contents: C:\WINDOWS\System32\LogFiles\Firewall
+2021-09-15 13:11:50,330 - SwachhWindows - ERROR: Error in delete_childitems method: C:\WINDOWS\System32\LogFiles\Firewall
+2021-09-15 13:11:50,330 - SwachhWindows - ERROR: [WinError 5] Access is denied: 'C:\\WINDOWS\\System32\\LogFiles\\Firewall'
+2021-09-15 13:11:50,330 - SwachhWindows - INFO: Deleted folder and it contents: C:\WINDOWS\System32\LogFiles\SAM
+2021-09-15 13:11:50,330 - SwachhWindows - ERROR: Error in delete_childitems method: C:\WINDOWS\System32\LogFiles\SAM
+2021-09-15 13:11:50,330 - SwachhWindows - ERROR: [WinError 5] Access is denied: 'C:\\WINDOWS\\System32\\LogFiles\\SAM'
+2021-09-15 13:11:50,330 - SwachhWindows - INFO: Deleted folder and it contents: C:\WINDOWS\System32\LogFiles\Scm
+2021-09-15 13:11:50,330 - SwachhWindows - ERROR: Error in delete_childitems method: C:\WINDOWS\System32\LogFiles\Scm
+2021-09-15 13:11:50,330 - SwachhWindows - ERROR: [WinError 5] Access is denied: 'C:\\WINDOWS\\System32\\LogFiles\\Scm\\SCM.EVM'
+2021-09-15 13:11:50,330 - SwachhWindows - INFO: Deleted folder and it contents: C:\WINDOWS\System32\LogFiles\setupcln
+2021-09-15 13:11:50,338 - SwachhWindows - ERROR: Error in delete_childitems method: C:\WINDOWS\System32\LogFiles\setupcln
+2021-09-15 13:11:50,338 - SwachhWindows - ERROR: [WinError 5] Access is denied: 'C:\\WINDOWS\\System32\\LogFiles\\setupcln'
+2021-09-15 13:11:50,338 - SwachhWindows - INFO: Deleted folder and it contents: C:\WINDOWS\System32\LogFiles\UnionFS
+2021-09-15 13:11:50,338 - SwachhWindows - ERROR: Error in delete_childitems method: C:\WINDOWS\System32\LogFiles\UnionFS
+2021-09-15 13:11:50,338 - SwachhWindows - ERROR: [WinError 5] Access is denied: 'C:\\WINDOWS\\System32\\LogFiles\\UnionFS'
+2021-09-15 13:11:50,338 - SwachhWindows - INFO: Deleted folder and it contents: C:\WINDOWS\System32\LogFiles\Windows Portable Devices
+2021-09-15 13:11:50,338 - SwachhWindows - ERROR: Error in delete_childitems method: C:\WINDOWS\System32\LogFiles\Windows Portable Devices
+2021-09-15 13:11:50,338 - SwachhWindows - ERROR: [WinError 5] Access is denied: 'C:\\WINDOWS\\System32\\LogFiles\\Windows Portable Devices'
+2021-09-15 13:11:50,338 - SwachhWindows - INFO: Deleted folder and it contents: C:\WINDOWS\System32\LogFiles\WMI
+2021-09-15 13:11:50,347 - SwachhWindows - ERROR: Error in delete_childitems method: C:\WINDOWS\System32\LogFiles\WMI
+2021-09-15 13:11:50,354 - SwachhWindows - ERROR: [WinError 5] Access is denied: 'C:\\WINDOWS\\System32\\LogFiles\\WMI\\RtBackup'
+2021-09-15 13:11:50,354 - SwachhWindows - INFO: Deleted file: C:\Users\pratila\Downloads\Azure_Sentinel_analytic_rule.json
+2021-09-15 13:11:50,354 - SwachhWindows - INFO: Deleted file: C:\Users\pratila\Downloads\HCF README2.5.7 (1).pdf
+2021-09-15 13:11:50,354 - SwachhWindows - INFO: Deleted file: C:\Users\pratila\Downloads\HCF README2.5.7.pdf
+2021-09-15 13:11:50,354 - SwachhWindows - INFO: Deleted file: C:\Users\pratila\Downloads\PowerShell-7.1.4-win-x64.msi
+2021-09-15 13:11:50,354 - SwachhWindows - INFO: Deleted file: C:\WINDOWS\setupact.log
+2021-09-15 13:11:50,354 - SwachhWindows - ERROR: Error in delete_childitems method: C:\WINDOWS\setupact.log
+2021-09-15 13:11:50,354 - SwachhWindows - ERROR: [WinError 5] Access is denied: 'C:\\WINDOWS\\setupact.log'
+2021-09-15 13:11:50,354 - SwachhWindows - INFO: Deleted file: C:\WINDOWS\setuperr.log
+2021-09-15 13:11:50,354 - SwachhWindows - ERROR: Error in delete_childitems method: C:\WINDOWS\setuperr.log
+2021-09-15 13:11:50,354 - SwachhWindows - ERROR: [WinError 5] Access is denied: 'C:\\WINDOWS\\setuperr.log'
+2021-09-15 13:11:50,354 - SwachhWindows - INFO: Deleted file: C:\ProgramData\Microsoft\Windows Defender\Support\MPDetection-20210828-102605.log
+2021-09-15 13:11:50,354 - SwachhWindows - ERROR: Error in delete_childitems method: C:\ProgramData\Microsoft\Windows Defender\Support\MPDetection-20210828-102605.log
+2021-09-15 13:11:50,354 - SwachhWindows - ERROR: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\ProgramData\\Microsoft\\Windows Defender\\Support\\MPDetection-20210828-102605.log'
+2021-09-15 13:11:50,363 - SwachhWindows - INFO: Deleted file: C:\ProgramData\Microsoft\Windows Defender\Support\MPDeviceControl-20210807-102819.log
+2021-09-15 13:11:50,363 - SwachhWindows - ERROR: Error in delete_childitems method: C:\ProgramData\Microsoft\Windows Defender\Support\MPDeviceControl-20210807-102819.log
+2021-09-15 13:11:50,363 - SwachhWindows - ERROR: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\ProgramData\\Microsoft\\Windows Defender\\Support\\MPDeviceControl-20210807-102819.log'
+2021-09-15 13:11:50,363 - SwachhWindows - INFO: Deleted file: C:\ProgramData\Microsoft\Windows Defender\Support\MPLog-20210913-115212.log
+2021-09-15 13:11:50,363 - SwachhWindows - ERROR: Error in delete_childitems method: C:\ProgramData\Microsoft\Windows Defender\Support\MPLog-20210913-115212.log
+2021-09-15 13:11:50,363 - SwachhWindows - ERROR: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\ProgramData\\Microsoft\\Windows Defender\\Support\\MPLog-20210913-115212.log'
+2021-09-15 13:11:50,363 - SwachhWindows - INFO: Deleted file: C:\ProgramData\Microsoft\Windows Defender\Support\MpWppTracing-20210915-085402-00000003-ffffffff.bin
+2021-09-15 13:11:50,363 - SwachhWindows - ERROR: Error in delete_childitems method: C:\ProgramData\Microsoft\Windows Defender\Support\MpWppTracing-20210915-085402-00000003-ffffffff.bin
+2021-09-15 13:11:50,363 - SwachhWindows - ERROR: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\ProgramData\\Microsoft\\Windows Defender\\Support\\MpWppTracing-20210915-085402-00000003-ffffffff.bin'
+2021-09-15 13:11:50,363 - SwachhWindows - INFO: Deleted folder and it contents: C:\ProgramData\Microsoft\Windows\WER\ReportArchive
+2021-09-15 13:11:50,363 - SwachhWindows - ERROR: Error in delete_childitems method: C:\ProgramData\Microsoft\Windows\WER\ReportArchive
+2021-09-15 13:11:50,363 - SwachhWindows - ERROR: [WinError 5] Access is denied: 'C:\\ProgramData\\Microsoft\\Windows\\WER\\ReportArchive\\Kernel_193_4fc2dc04bbf53b0b38c20842415f985794fdb16_00000000_cab_209c3827-73fa-4290-acd8-0baeb921610b'
+2021-09-15 13:11:50,363 - SwachhWindows - INFO: Deleted folder and it contents: C:\ProgramData\Microsoft\Windows\WER\ReportQueue
+2021-09-15 13:11:50,363 - SwachhWindows - INFO: Deleted folder and it contents: C:\ProgramData\Microsoft\Windows\WER\Temp
+2021-09-15 13:11:50,370 - SwachhWindows - ERROR: Error in delete_windows_upgrade_files()
+2021-09-15 13:11:50,370 - SwachhWindows - ERROR: [WinError 5] Access is denied: 'C:\\Windows\\Panther\\Setupact.log'
+2021-09-15 13:11:50,370 - SwachhWindows - ERROR: Error in delete_windows_upgrade_files()
+2021-09-15 13:11:50,370 - SwachhWindows - ERROR: [WinError 5] Access is denied: 'C:\\Windows\\panther\\setuperr.log'
+2021-09-15 13:11:50,370 - SwachhWindows - ERROR: Error in delete_windows_upgrade_files()
+2021-09-15 13:11:50,370 - SwachhWindows - ERROR: [WinError 2] The system cannot find the file specified: 'C:\\Windows\\inf\\setupapi.app.log'
+2021-09-15 13:11:50,370 - SwachhWindows - ERROR: Error in delete_windows_upgrade_files()
+2021-09-15 13:11:50,370 - SwachhWindows - ERROR: [WinError 2] The system cannot find the file specified: 'C:\\Windows\\inf\\setupapi.app.log'
+2021-09-15 13:11:50,370 - SwachhWindows - ERROR: Error in delete_windows_upgrade_files()
+2021-09-15 13:11:50,370 - SwachhWindows - ERROR: [WinError 5] Access is denied: 'C:\\Windows\\inf\\setupapi.dev.log'
+2021-09-15 13:11:50,370 - SwachhWindows - ERROR: Error in delete_windows_upgrade_files()
+2021-09-15 13:11:50,370 - SwachhWindows - ERROR: [WinError 2] The system cannot find the file specified: 'C:\\Windows\\panther\\PreGatherPnPList.log'
+2021-09-15 13:11:50,370 - SwachhWindows - ERROR: Error in delete_windows_upgrade_files()
+2021-09-15 13:11:50,370 - SwachhWindows - ERROR: [WinError 2] The system cannot find the file specified: 'C:\\Windows\\panther\\PostApplyPnPList.log'
+2021-09-15 13:11:50,370 - SwachhWindows - ERROR: Error in delete_windows_upgrade_files()
+2021-09-15 13:11:50,370 - SwachhWindows - ERROR: [WinError 5] Access is denied: 'C:\\Windows\\panther\\miglog.xml'
+2021-09-15 13:11:50,370 - SwachhWindows - ERROR: Error in delete_windows_upgrade_files()
+2021-09-15 13:11:50,370 - SwachhWindows - ERROR: [WinError 2] The system cannot find the file specified: 'C:\\Windows\\setupapi.log'
+2021-09-15 13:11:50,370 - SwachhWindows - ERROR: Error in delete_windows_upgrade_files()
+2021-09-15 13:11:50,370 - SwachhWindows - ERROR: [WinError 3] The system cannot find the path specified: 'C:\\Windows\\Logs\\MoSetup\\BlueBox.log'
+2021-09-15 13:11:50,370 - SwachhWindows - ERROR: Error in delete_windows_upgrade_files()
+2021-09-15 13:11:50,370 - SwachhWindows - ERROR: [WinError 5] Access is denied: 'C:\\Windows\\panther\\miglog.xml'
+2021-09-15 13:11:50,370 - SwachhWindows - ERROR: Error in delete_windows_upgrade_files()
+2021-09-15 13:11:50,370 - SwachhWindows - ERROR: [WinError 2] The system cannot find the file specified: 'C:\\Windows\\memory.dmp'
